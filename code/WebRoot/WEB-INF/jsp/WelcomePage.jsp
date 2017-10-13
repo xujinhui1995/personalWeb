@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -23,6 +23,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    This is the first page of the website. <br>
+  	<div align="center">
+  		<img style="size:80%" src="F:/Git/personalWeb/code/WebRoot/WEB-INF/jsp/P70730-100251.jpg">
+  	</div>
+    <div align="center" >
+		<font style="font-family:'宋体';font-size:25;color:99FF99">山东省诸城市桃林镇崮山沟村茶叶</font>
+		<br/>
+		<font style="font-family:'黑体';font-size:25;color:99FF99">山东省诸城市桃林镇崮山沟村茶叶</font>
+	</div>
   </body>
 </html>
